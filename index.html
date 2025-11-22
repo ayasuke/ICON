@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <!--  放入這三行開始 -->
+<link rel="icon" type="image/png" href="./icon.png">
+<link rel="apple-touch-icon" href="./icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./icon.png">
+<!--  放入這三行結束 -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>人狗年齡換算器</title>
+  <meta name="description" content="使用科學公式快速換算狗狗年齡，並自動記住寵物生日，下次開啟網頁自動填入。">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+    <h1>🐶 人狗年齡換算工具</h1>
+    <p class="subtitle">使用 UCSD / UC Davis 科研公式「DNA 甲基化換算」</p>
+
+    <div class="card">
+      <label for="dogBirthday">請輸入狗狗生日</label>
+      <input type="date" id="dogBirthday">
+
+      <button id="calcBtn">開始換算</button>
+
+      <div id="result" class="result"></div>
+    </div>
+
+    <footer>
+      <p>公式：HumanAge = 16 × ln(dogAge) + 31</p>
+      <p>© 2025 Dog Age Converter</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

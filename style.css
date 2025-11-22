@@ -1,0 +1,77 @@
+body {
+    font-family: "Microsoft JhengHei", sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    color: blue;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    text-indent: 24px;
+  }
+  
+  .app {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .card {
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 6px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #3f7cff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2a5ed4;
+  }
+  
+  .result {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* 響應式避免水平捲動 */
+  @media (max-width: 320px) {
+    body { margin: 10px; }
+    h1 { font-size: 22px; }
+  }
+  
